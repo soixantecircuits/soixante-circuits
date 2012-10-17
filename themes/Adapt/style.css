@@ -521,9 +521,10 @@ html[xmlns] .slides {display: block;}
 
 /*slider wrap */
 #slider-wrap{
-	width: 100%;
+	width: 80%;
 	position: relative;
-	margin-bottom: 30px;
+	text-align: center;
+	margin: 0 auto 30px auto;
 }
 
 /*homepage specific*/
@@ -563,6 +564,12 @@ html[xmlns] .slides {display: block;}
 .flex-control-nav{
 	display: none;
 }
+
+ul.flex-direction-nav{
+	z-index: 100;
+	zoom: 1;
+}
+
 .flex-direction-nav li a.next,
 .flex-direction-nav li a.prev {
     position: absolute;
@@ -583,6 +590,7 @@ html[xmlns] .slides {display: block;}
 	-moz-opacity: 0.4;
     -khtml-opacity: 0.4;
     opacity: 0.4;
+    zoom: 1;
 }
 .flex-direction-nav li a.next {
     right: 0;
