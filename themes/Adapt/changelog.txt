@@ -1,0 +1,8 @@
+Version 1.1 ==>
+
+* Fixed spacing issue for pagination function in archive.php
+
+Version 1.2 ==>
+
+* Fixed counter error on single-portfolio.php when debug active
+* Removed Google API js and leaft the WP version
