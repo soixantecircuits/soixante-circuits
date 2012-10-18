@@ -493,7 +493,16 @@ ul.sf-menu li li.sfHover ul {
 	font-size: 13px;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/* = Video responsive
+/*-----------------------------------------------------------------------------------*/
 
+.fluid-width-video-wrapper{
+	z-index: 97;
+}
+.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed{
+	z-index: 96;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /* = Image Slider
@@ -502,7 +511,7 @@ ul.sf-menu li li.sfHover ul {
 /* FlexSlider necessary styles */
 .flexslider { margin: 0; padding: 0;width: 100%;}
 .flexslider .slides{ margin: 0; list-style: none; z-index:99;}
-.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li {display: none; z-index:98;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {
 	display: block;
 	max-width: 100%;
